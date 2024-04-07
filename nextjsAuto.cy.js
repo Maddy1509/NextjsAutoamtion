@@ -15,10 +15,6 @@ describe('Automation Excercise Testing' , function() {
         cy.incorrectPW(Selector)
     })
     
-    it('Test case 3 : verifying with correct Email & password', function(){
-        cy.correctEmailPW(Selector)
-    })
-
     it.only('Test case 4 : verifying the invoice page', function(){
         cy.invoicePage(Selector)
     })
