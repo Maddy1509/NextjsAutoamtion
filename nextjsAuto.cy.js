@@ -15,7 +15,7 @@ describe('Automation Excercise Testing' , function() {
         cy.incorrectPW(Selector)
     })
     
-    it.only('Test case 4 : verifying the invoice page', function(){
+    it.only('Test case 3 : verifying the invoice page', function(){
         cy.invoicePage(Selector)
     })
 
